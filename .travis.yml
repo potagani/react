@@ -5,7 +5,7 @@ services:
 
 
 before_install:
-  - docker build -t potagani/docker -f Dockerfile.dec .
+  - docker build -t potagani/docker -f Dockerfile.dev .
 
 
 
